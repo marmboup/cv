@@ -6,9 +6,9 @@ st.set_page_config(page_title="Mon CV", page_icon="", layout="wide")
 # Sidebar pour Contacts et Logiciels
 st.sidebar.header("📞 **Contacts**")
 st.sidebar.markdown("""
+**Email**[marmboup11@gmail.com]
 **Adresse**  
-Ross-Bethio,
-**Email**[marmboup11@gmail.com] """)
+Ross-Bethio """)
 
 st.sidebar.header("💻 **Logiciels maîtrisés**")
 logiciels = [
