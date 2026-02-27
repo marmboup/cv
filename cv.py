@@ -4,15 +4,10 @@ import streamlit.components.v1 as components
 st.set_page_config(page_title="Mon CV", page_icon="", layout="wide")
 
 # Sidebar pour Contacts et Logiciels
-st.sidebar.image("marco.jpeg",width=150)
 st.sidebar.header("📞 **Contacts**")
 st.sidebar.markdown("""
 **Adresse**  
 Ross-Bethio,
-
-**Téléphone**  
-[+221 76 352 68 65]
-
 **Email**  
 [marmboup11@gmail.com]
 """)
