@@ -27,8 +27,8 @@ st.sidebar.markdown("---")
 st.sidebar.markdown("*Géomaticien - L2 en cours*")
 
 # Main content
-st.title("📋 **porfolio**")
-st.markdown("**mar mboup** - Géomaticien")
+st.title("📋 **MAR MBOUP**")
+st.markdown(" Géomaticien")
 
 ## Compétences
 st.header("🎯 **Compétences**")
