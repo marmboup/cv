@@ -5,7 +5,7 @@ st.set_page_config(page_title="Mon CV", page_icon="", layout="wide")
 
 # Sidebar pour Contacts et Logiciels
 st.sidebar.image("marco.jpeg",width=150)
-st.sidebar.header(" **Contacts**")
+st.sidebar.header("📞 **Contacts**")
 st.sidebar.markdown("""
 **Adresse**  
 Ross-Bethio,
@@ -17,7 +17,7 @@ Ross-Bethio,
 [marmboup11@gmail.com]
 """)
 
-st.sidebar.header(" **Logiciels maîtrisés**")
+st.sidebar.header("💻 **Logiciels maîtrisés**")
 logiciels = [
     "QGIS / ArcGIS",
     "AutoCAD", 
@@ -34,11 +34,11 @@ st.sidebar.markdown("---")
 st.sidebar.markdown("*Géomaticien - L2 en cours*")
 
 # Main content
-st.title(" **Curriculum Vitae**")
+st.title("📋 **Curriculum Vitae**")
 st.markdown("**mar mboup** - Géomaticien")
 
 ## Compétences
-st.header(" **Compétences**")
+st.header("🎯 **Compétences**")
 competences = [
     "Maîtrise des techniques de levés topographiques",
     "Conception et mise en page de cartes thématiques de qualité professionnelle",
@@ -54,14 +54,14 @@ for comp in competences:
     st.markdown(f"• **{comp}**")
 
 ## Expériences Professionnelles
-st.header(" **Expériences Professionnelles**")
+st.header("💼 **Expériences Professionnelles**")
 
 st.subheader("**Aout - Septembre 2025**")
 st.markdown("**stage en entreprise à la DGPRE (Direction de la Gestion et de la Planification des Ressources en Eau) au Sénégal :**")
 
 
 ## Formation
-st.header(" **Formation**")
+st.header("🎓 **Formation**")
 
 st.markdown("""
 **2025 - 2026**  
